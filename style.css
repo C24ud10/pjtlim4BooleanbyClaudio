@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+}
+
+div#container{
+    width: 825px;
+    height: 600px;
+    border-radius: 2%;
+    position: absolute;
+    top: 15px;
+    left: 250px; 
+    background-color: rgba(0, 0, 0, 0.5);
+    font: 12px/150% arial, sans-serif;
+    padding: 80px    
+}
+
+
+header{
+    text-align: center;
+    color: rgb(11, 201, 11);
+    padding-bottom: 5px;    
+}
+img {
+    width: 25%;
+    height: 25%;
+}
+
+
+nav{
+    background-color:rgb(11, 201, 11);
+    padding: 5px;
+    text-align: center;    
+}
+button{
+    font-size: 11px;
+}
+
+
+section{
+    padding-top: 20px;
+}
+input, h2{
+    display: inline-block;
+    color: white;
+}
+input{
+    height: 10px;
+    width: 10px;
+    border-radius: 2%;
+}
+p{
+    color: lightgrey;   
+}
+
+
+#carica-Gino{
+    width: 230px;
+    height: 25px;
+    border-radius: 5px; 
+    background-color: orange;
+}
+#carica-Mike{
+    width: 425px;
+    height: 25px;
+    border-radius: 5px; 
+    background-color: green;
+}
+#carica-Fede{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px; 
+    background-color: red;
+}
